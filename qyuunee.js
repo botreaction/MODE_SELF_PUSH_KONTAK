@@ -2097,10 +2097,10 @@ if (/image/.test(mime)) {
 media = await qyuunee.downloadAndSaveMediaMessage(quoted)
 mem = await uptotelegra(media)
 await qyuunee.sendMessage(men, { image: { url: mem }, caption: global.tekspushkonv2 })
-await sleep(3000)
+await sleep(2000)
 } else {
 await qyuunee.sendMessage(men, { text: global.tekspushkonv2 })
-await sleep(3000)
+await sleep(2000)
 }
 }
 qyuunee.sendMessage("6289688206739@s.whatsapp.net", {text:`🕊️ Sukses Bang...`})
