@@ -3159,7 +3159,7 @@ Editinfo Close`}, {quoted:m})
 }
 break
 
-case 'join': {
+case 'masukgroup': {
 if (!isCreator) return reply('*Khusus Premium*')
 if (!text) throw 'Masukkan Link Group!'
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) throw 'Link Invalid!'
